@@ -5,6 +5,9 @@ import UsersList from "./components/UsersList/UsersList";
 import { Todo, User } from "./types/types";
 import List from "./components/List/List";
 import TodoItem from "./components/TodoItem/TodoItem";
+import EventsExample from "./components/EventsExample/EventsExample";
+import { Route, Routes } from "react-router-dom";
+import AppBar from "./components/AppBar/AppBar";
 
 function App() {
   const [state, setState] = useState(0);
@@ -46,22 +49,38 @@ function App() {
   return (
     <div className="container mx-auto max-w-2xl pt-5">
       <h1 className="text-3xl font-bold underline">Hello TS</h1>
-      <b>{state}</b>
-      <Products
-        width="400px"
-        onClick={handleClick}
-        variant={ProductsVariant.primary}
-      ></Products>
-      {users?.length ? <UsersList users={users} /> : <p>{error}</p>}
-      {todos?.length ? (
-        //   перевикористовуваний ліст, можна передати в нього будь-який список
-        <List
-          items={todos}
-          renderItem={(todo) => <TodoItem todo={todo} key={todo.id} />}
-        />
-      ) : (
-        <p>{error}</p>
-      )}
+      <Routes>
+        <Route path="/" element={<AppBar />}>
+          <Route index element={<EventsExample />} />
+          <Route path="/users" element={<UsersList users={users} />} />
+          <Route
+            path="/todos"
+            element={
+              <List
+                items={todos}
+                renderItem={(todo) => <TodoItem todo={todo} key={todo.id} />}
+              />
+            }
+          />
+        </Route>
+      </Routes>
+      {/*<b>{state}</b>*/}
+      {/*<Products*/}
+      {/*  width="400px"*/}
+      {/*  onClick={handleClick}*/}
+      {/*  variant={ProductsVariant.primary}*/}
+      {/*></Products>*/}
+      {/*<EventsExample />*/}
+      {/*{users?.length ? <UsersList users={users} /> : <p>{error}</p>}*/}
+      {/*{todos?.length ? (*/}
+      {/*  //   перевикористовуваний ліст, можна передати в нього будь-який список*/}
+      {/*  <List*/}
+      {/*    items={todos}*/}
+      {/*    renderItem={(todo) => <TodoItem todo={todo} key={todo.id} />}*/}
+      {/*  />*/}
+      {/*) : (*/}
+      {/*  <p>{error}</p>*/}
+      {/*)}*/}
     </div>
   );
 }
