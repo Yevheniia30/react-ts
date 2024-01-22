@@ -11,12 +11,15 @@ const firstNum = getFirstElement(numbers);
 const strings = ['qwe', 'asd', 'zxc'];
 const firstStr = getFirstElement(strings);
 
-function App() {
+const App = () => {
   return (
     <div className="App">
+      <h1 className="text-purple-950 text-4xl font-bold underline">
+        Hello world!
+      </h1>
       <Form />
     </div>
   );
-}
+};
 
 export default App;
