@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "image": "pear.jpg",
+    "weight": 545,
+    "title": "Venetia Pizza",
+    "ingredients": "Mozzarella, pear, blue cheese, creamy sauce",
+    "price": 13.50
+  },
+  {
+    "id": 2,
+    "image": "beef.jpg",
+    "weight": 612,
+    "title": "Buffalo Pizza",
+    "ingredients": "Mozzarella, paprika, beef, olives, onion, hot sauce",
+    "price": 13.90
+  },
+  {
+    "id": 3,
+    "image": "ham.jpg",
+    "weight": 570,
+    "title": "Ham Pizza",
+    "ingredients": "Mozzarella, tomatoes, ham, barbecue sauce",
+    "price": 12.50
+  },
+  {
+    "id": 4,
+    "image": "country.jpg",
+    "weight": 555,
+    "title": "Country Pizza",
+    "ingredients": "Mozzarella, ham, mushrooms, salty cucumber, bacon, garlic sauce",
+    "price": 12.50
+  },
+  {
+    "id": 5,
+    "image": "jalapeno.jpg",
+    "weight": 550,
+    "title": "Jalapeno Pizza",
+    "ingredients": "Mozzarella, peperoni, chorizo, jalapeno, cheesy sauce",
+    "price": 13.20
+  },
+  {
+    "id": 6,
+    "image": "meatball.jpg",
+    "weight": 625,
+    "title": "Grill Pizza",
+    "ingredients": "Mozzarella, chicken, meatballs, sweet pepper, onion, bacon, barbecue sauce",
+    "price": 14.50
+  },
+  {
+    "id": 7,
+    "image": "corn.jpg",
+    "weight": 580,
+    "title": "Jamaica Pizza",
+    "ingredients": "Mozzarella, chicken, mushrooms, corn, sweet pepper, jalapeno, pineapple, bacon, white sauce",
+    "price": 13.00
+  },
+  {
+    "id": 8,
+    "image": "salmon.jpg",
+    "weight": 555,
+    "title": "Salmon Pizza",
+    "ingredients": "Mozzarella, salmon, cream-cheese, creamy sauce",
+    "price": 15.00
+  },
+  {
+    "id": 9,
+    "image": "tuna.jpg",
+    "weight": 555,
+    "title": "Tuna Pizza",
+    "ingredients": "Mozzarella, tuna, green olives, feta, garlic sauce",
+    "price": 15.00
+  },
+  {
+    "id": 10,
+    "image": "turkey.jpg",
+    "weight": 575,
+    "title": "Turkey Pizza",
+    "ingredients": "Mozzarella, turkey, cream-cheese, creamy sauce",
+    "price": 13.50
+  },
+  {
+    "id": 11,
+    "image": "classic.jpg",
+    "weight": 555,
+    "title": "Classic Pizza",
+    "ingredients": "Mozzarella, ham, tomatoes, olives, creamy sauce",
+    "price": 12.50
+  },
+  {
+    "id": 12,
+    "image": "prosciutto.jpg",
+    "weight": 555,
+    "title": "Prosciutto Pizza",
+    "ingredients": "Mozzarella, prosciutto, feta, creamy sauce",
+    "price": 14.50
+  }
+]
