@@ -5,14 +5,14 @@ import Footer from './Footer';
 const meta = {
   title: 'Example/Footer',
   component: Footer,
-} satisfies Meta<typeof Footer>;
+} satisfies Meta: any<typeof Footer>;
 
-export default meta;
-type Story = StoryObj<typeof meta>;
+  export default meta;
+  type Story = StoryObj<typeof meta>;
 
-export const FooterView: Story = {
-  args: {
-    primary: true,
+    export const FooterView: Story = {
+      args: {
+      primary: true,
     label: 'Footer',
   },
 };

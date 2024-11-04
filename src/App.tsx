@@ -10,7 +10,6 @@ const App = () => {
         Hello world!
       </h1>
       <MenuList items={pizzaMenu} />
-
       <Form />
     </div>
   );

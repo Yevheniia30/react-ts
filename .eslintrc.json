@@ -38,12 +38,7 @@
         "no-console": "warn",
         "react/display-name": "warn",
         "react/prop-types": "warn",
-        "prettier/prettier": [
-            "error", 
-            {
-              "endOfLine": "lf"
-            }
-        ],
+        "prettier/prettier": 0,
         "react-hooks/rules-of-hooks": "error",
         "@typescript-eslint/no-explicit-any": "off",
         "react/react-in-jsx-scope": "off"

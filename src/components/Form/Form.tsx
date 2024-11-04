@@ -32,6 +32,7 @@ const Form = () => {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
+      <p>FORM</p>
       <input {...register('name')} />
       <input {...register('email')} />
       <input type="submit" value="submit" />
